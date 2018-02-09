@@ -15,18 +15,42 @@
 <body>
 	<div class="container">
 
-		<p><a href="/">Back to Home Page</a></p>
+		<h2>Welcome back, Alex!</h2>
+
+		<div class="drop_menu">
+			<a href="/menu/" class="thumbnail">
+				<p>Menu</p>
+			</a>
+		</div>
+
+		<button id="search_button" class="btn btn-primary btn-lg">Search Button</button>
+
+		<hr>
+
+		<form id="post">
+	      	<label for="wallpost">[Picture Holder] </label>
+	      		
+	      	<input type="text" class="form-control" id="name" placeholder="What's on your mind?" name="wallpost">
+	      		
+	      	<input type="submit" id="submitBtn" class="btn btn-default" value="Submit Post"></input>
+	    </form>
+
+	    <hr>
 		
 		<div class="alex-comment" id="to-running-team">
+			<p>[Picture Holder]</p>
 			<p>Alex Li to Running Team</p>
 
 			<p>Hey everyone, we're going for a run around La Jolla Cove in about 45 minutes. We'll meet in the front parking lot.</p>
 		</div>
 
+		<hr>
+
 		<div class="reply_section">
 			<button id="hidereps" class="btn btn-primary btn-lg">Hide replies</button>
 		
 			<div class="replies">
+				<p>[Picture Holder]</p>
 				<p>Janselle Justo</p>
 				<p>Sounds good! See you all soon!</p>
 			</div>
