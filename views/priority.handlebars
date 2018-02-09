@@ -3,25 +3,44 @@
 <html>
 
 <head>
-	<title>"HCI Project: Priority Page"</title>
+	<title>"HCI Project: Home Page"</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/format-second-screen.css" rel="stylesheet">
 </head>
 
 <body>
 	<div class="container">
-			<div class="jumbotron">
-				<h1>Title of App: Priority Page</h1>
-			</div>				
-	</div>
 
-	<p><a href="/">Back to Home Page</a></p>
+		<p><a href="/">Back to Home Page</a></p>
+		
+		<div class="alex-comment" id="to-running-team">
+			<p>Alex Li to Running Team</p>
+
+			<p>Hey everyone, we're going for a run around La Jolla Cove in about 45 minutes. We'll meet in the front parking lot.</p>
+		</div>
+
+		<div class="reply_section">
+			<button id="hidereps" class="btn btn-primary btn-lg">Hide replies</button>
+		
+			<div class="replies">
+				<p>Janselle Justo</p>
+				<p>Sounds good! See you all soon!</p>
+			</div>
+
+			<button id="showreps" class="btn btn-primary btn-lg">Show replies</button>
+		</div>
+
+			
+	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/priorityPage.js"></script>
 </body>
 
 </html>
