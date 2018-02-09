@@ -1,11 +1,18 @@
-.blurb p {
+.drop_menu {
+	text-align: center;
+	max-width: 50px;
+}
+
+.blurb {
 	text-align: center;
 }
 
-.priority p {
+.priority {
 	text-align: center;
+	max-width: 150px;
 }
 
-.quote p {
+.quote {
 	text-align: center;
+	background-color: #CCCCCC;
 }

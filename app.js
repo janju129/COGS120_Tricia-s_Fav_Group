@@ -37,8 +37,8 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/about_page/', priority.viewAbout);
-// Example route
-// app.get('/users', user.list);
+app.get('/menu/', priority.viewMenu);
+app.get('/menu/priority_page/', priority.viewPriority);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
