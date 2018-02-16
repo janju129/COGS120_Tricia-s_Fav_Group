@@ -37,8 +37,9 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/about_page/', priority.viewAbout);
-app.get('/menu/', priority.viewMenu);
-app.get('/menu/priority_page/', priority.viewPriority);
+app.get('/secondPage/', priority.viewMenu);
+app.get('/secondPage/priority_page/', priority.viewPriority);
+app.get('/loginpage/', priority.viewLogin);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

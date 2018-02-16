@@ -10,6 +10,17 @@ exports.viewAbout = function(req, res) {
 }
 
 exports.viewMenu = function(req, res) {
-	console.log("Menu Page");
-	res.render("menu");
+	console.log("Second Page");
+	res.render("secondpage");
 }
+
+exports.viewLogin = function(req, res) {
+	console.log("Login");
+	res.render("loginpage");
+}
+var data = require('../data.json');
+
+exports.view = function(req, res){
+	console.log(data);
+	res.render('index', data);
+};

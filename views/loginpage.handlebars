@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Login</title>	
+	<meta charset="utf-8">
+    
+	<link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.css" rel="stylesheet">
+    
+    <script src="/js/jquery-1.11.0.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="../public/js/login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Page</h1>
+    </div>    
+    
+    <div class="container">
+        <form id="loginform" role="form" method="get" action="/add">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" id="username" placeholder="Name" name="name">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="text" class="form-control" id="password" placeholder="Password" name="description">
+            </div>
+            <input type="button" id="submitBtn" class="btn btn-default" value="Login" onclick="loginFunction()"></input>
+        </form>
+    </div>  
+</body>
+</html>
