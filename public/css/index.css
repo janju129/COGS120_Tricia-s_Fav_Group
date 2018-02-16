@@ -1,0 +1,46 @@
+element.style {
+}
+
+div {
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	font-family: arial;
+}
+
+img {
+	display: inline-block;
+}
+
+.header {
+	background-color: white;
+	height: 10vh;
+	color: black;
+	font-size: 15pt;
+}
+
+.header div {
+	display: block;
+	margin-top: 10pt;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	width: 31%;
+	float: left;
+}
+
+
+.header div:first-child {
+	text-align: left;
+}
+
+.header div:nth-child(2) {
+	text-align: center;
+}
+
+.header div:last-child {
+	text-align: right;
+}
+
+
